@@ -11,9 +11,7 @@ public class Task1 {
         Processors comp1 = Processors.AMD;
         Processors comp2 = Processors.INTEL;
 
-        System.out.println("Russia ATM number is "+atmRussia);
-        System.out.println("Hong Kong ATM number is "+atmHongKong);
-        System.out.println("Computer 1 has "+comp1+" processor");
-        System.out.println("Computer 2 has "+comp2+" processor");
+        System.out.println("Russia ATM with number "+atmRussia+" has "+comp1+" processor");
+        System.out.println("Hong Kong ATM with number "+atmHongKong+" has "+comp2+" processor");
     }
 }
