@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Task2withFunction {
     public static void main(String[] args) {
-        int[] numbers = {3,9,1,8,4,8,5};
+        int[] numbers = {3,9,1,8,4,8,5,6};
         for (int n : sort(numbers)) {
             System.out.print(n+", ");
         }
