@@ -1,3 +1,5 @@
+package Homework6;
+
 public class Task2withFOR {
     public static void main(String[] args) {
         int[] arr = {3,9,1,8,4,8,5};
