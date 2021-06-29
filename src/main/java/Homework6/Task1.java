@@ -10,6 +10,6 @@ public class Task1 {
         for (int s : array) {
             total = total + s;
         }
-        return total;
+        return total+1;
     }
 }
