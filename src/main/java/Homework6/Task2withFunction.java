@@ -1,3 +1,5 @@
+package Homework6;
+
 import java.util.Arrays;
 
 public class Task2withFunction {
@@ -6,7 +8,7 @@ public class Task2withFunction {
         for (int n : sort(numbers)) {
             System.out.print(n+", ");
         }
-        System.out.printf(Arrays.toString(sort(numbers)));
+        System.out.println(Arrays.toString(sort(numbers)));
     }
     public static int[] sort(int[] arr){
         Arrays.sort(arr);
