@@ -1,4 +1,4 @@
-package Homework6;
+package homework6;
 
 public class Task1 {
     public static void main(String[] args) {
@@ -10,6 +10,6 @@ public class Task1 {
         for (int s : array) {
             total = total + s;
         }
-        return total+1;
+        return total;
     }
 }

@@ -1,4 +1,4 @@
-package Homework6;
+package homework6;
 
 public class Task2withFOR {
     public static void main(String[] args) {
