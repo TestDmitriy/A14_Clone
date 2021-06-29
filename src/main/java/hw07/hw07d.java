@@ -11,12 +11,11 @@ public class hw07d {
         int aSum = dSum(trays);
         System.out.println("Task#01: Sum = " + aSum);
 
-
 //--------------------------------------------------------------- 2:
 //        2. Create function sort - which takes  int[] as a param and print out sorted array invoke it from main() -
 //           pass {3,9,1,8,4,8,5} as a param (this will be void func)
 
-        int[] arrSort = {3, 9, 1, 8, 4, 8, 5};
+        // int[] arrSort = {3, 9, 1, 8, 4, 8, 5};
 
 //        dSort(arrSort);
 
