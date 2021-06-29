@@ -1,7 +1,5 @@
 package hw07;
 
-import jdk.dynalink.beans.StaticClass;
-
 public class hw07d {
     public static void main(String[] args) {
 
