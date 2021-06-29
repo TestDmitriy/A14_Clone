@@ -2,7 +2,7 @@ package homework6;
 
 public class Task3 {
     public static void main(String[] args) {
-        int[] numbers = {3,9,1,8,4,8,5,6};
+        int[] numbers = {3,9,1,8,4,8,5};
         System.out.println(minMethod(numbers));
     }
     public static int minMethod(int[] array){
