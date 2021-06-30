@@ -35,6 +35,7 @@ public class ArraySort {
 }
 
 
-//great implementation: https://i.ytimg.com/vi/nXrQAAU9Y_8/maxresdefault.jpg
+//great implementation of mine: https://i.ytimg.com/vi/nXrQAAU9Y_8/maxresdefault.jpg
 // implementation too https://pbs.twimg.com/media/D4OGSdTXsAAU3E0.jpg
+// All Sorting Algorithms in Java: https://stackabuse.com/sorting-algorithms-in-java#sortinginjava
 // Algorithms: Quicksort : https://www.youtube.com/watch?v=SLauY6PpjW4
