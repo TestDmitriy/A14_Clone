@@ -1,4 +1,4 @@
-package hw07;
+package hw07dk;
 
     public enum enumsd                  //  Should be NAMED the same as - class (TAB)
     {

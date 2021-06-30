@@ -1,4 +1,4 @@
-package hw07;
+package hw07dk;
 
 public class hw07d {
     public static void main(String[] args) {
