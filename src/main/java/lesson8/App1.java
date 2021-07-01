@@ -1,5 +1,7 @@
 package lesson8;
 
+import lesson8.Person;
+
 public class App1 {
     public static void main(String[] args) {
         Vehicle xx = new Vehicle();
@@ -16,5 +18,7 @@ public class App1 {
 
         gucci.printInfo();
 
+        Person anna = new Person();
+        anna.yearOfBirth = -1559874;
     }
 }
