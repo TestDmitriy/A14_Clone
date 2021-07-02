@@ -33,11 +33,10 @@ public class Crew extends Movie {
     }
 
 //constructor
-    public Crew(String name, int year, String studio, String crew_da, int crew_quantity) {
 
+    public Crew(String name, int year, String studio, String crew_da, int crew_quantity) {
         super(name, year, studio);
         this.crew_da = crew_da;
         this.crew_quantity = crew_quantity;
-
     }
 }

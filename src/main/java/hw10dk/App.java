@@ -30,6 +30,5 @@ public class App {
         System.out.println(jlight);
         System.out.println((jtranspo) +" + "+ (jlight));
 
-
     }
 }
