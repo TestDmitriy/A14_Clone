@@ -6,16 +6,15 @@ public class Fans {
     private int f_size;
     private String f_cable;
 
-    public void printFan(String f_brand, int f_size, String f_cable)
-    {
-        System.out.println(f_brand +" : "+ f_size +" : "+ f_cable);
+    public Fans(){}
 
-    }
-    public void printInfo(){
-        System.out.println(getF_brand());
+    public Fans(String f_brand, int f_size, String f_cable) {
+        this.f_brand = f_brand;
+        this.f_size = f_size;
+        this.f_cable = f_cable;
     }
 
-// ----------------------------------Getters & Setters
+    // ----------------------------------Getters & Setters
 
     public String getF_brand() {
         return f_brand;
@@ -41,6 +40,15 @@ public class Fans {
         this.f_cable = f_cable;
     }
 // ----------------------------------------------------------
+
+    public void printFan(String f_brand, int f_size, String f_cable)
+{
+    System.out.println(f_brand +" : "+ f_size +" : "+ f_cable);
+
+}
+    public void printInfo(){
+        System.out.println(getF_brand());
+    }
 
 
 }

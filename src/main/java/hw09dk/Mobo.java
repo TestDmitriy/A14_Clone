@@ -3,9 +3,9 @@ package hw09dk;
 public class Mobo {
     // Class fields-description
 
-    public String brand;
-    public String name;
-    public String formation;
+    private String brand;
+    private String name;
+    private String formation;
     private int price;
     private String buyer;
 
@@ -15,10 +15,13 @@ public class Mobo {
     }
 
     // Class Constructor - Dedicated fields
-    public Mobo(String brand, String name, String formation) {
+    public Mobo(String brand, String name, String formation, int
+                price, String buyer) {
         this.brand = brand;
         this.name = name;
         this.formation = formation;
+        this.price = price;
+        this.buyer = buyer;
     }
 
 // ---------------------------------------- setters
