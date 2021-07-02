@@ -15,12 +15,15 @@ public class Person {
         this.name = name;
         this.lastName = lastName;
     }
+
     public void setName(String name){
         this.name = name;
     }
+
     public void setLastName(String lastName){
         this.lastName = lastName;
     }
+
     public void setYear(int y){
         if(y>2021 || y<1900){
             throw new IllegalArgumentException("Wrong year");

@@ -1,6 +1,6 @@
 package hw07dk;
 
-    public enum enumsd                  //  Should be NAMED the same as - class (TAB)
+    public enum Enums_1                  //  Should be NAMED the same as - class (TAB)
     {
             I3,
             I5,
