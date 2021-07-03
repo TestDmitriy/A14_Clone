@@ -1,4 +1,4 @@
-package homework6;
+package homework06;
 
 public class Task1 {
     public static void main(String[] args) {

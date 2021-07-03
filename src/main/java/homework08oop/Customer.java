@@ -1,4 +1,4 @@
-package homework8oop;
+package homework08oop;
 
 public class Customer {
     public String name;

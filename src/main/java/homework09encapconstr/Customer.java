@@ -1,4 +1,4 @@
-package homework9encapconstr;
+package homework09encapconstr;
 
 public class Customer {
     private String name;

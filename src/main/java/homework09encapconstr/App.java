@@ -1,4 +1,4 @@
-package homework9encapconstr;
+package homework09encapconstr;
 
 //  1. Create 4 classes with fields (at least 3 fields) and methods (at least 1 method)
 //  each class has at least 2 constructors (default and full)

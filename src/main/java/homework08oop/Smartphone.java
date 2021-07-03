@@ -1,4 +1,4 @@
-package homework8oop;
+package homework08oop;
 
 public class Smartphone {
     public String make;

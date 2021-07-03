@@ -1,4 +1,4 @@
-package homework7;
+package homework07;
 
 public enum ATMs {
     B0096301,

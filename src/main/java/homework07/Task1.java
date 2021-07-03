@@ -1,4 +1,4 @@
-package homework7;
+package homework07;
 
 //Create 2 Enums
 //Create 2 Variables of each enum
