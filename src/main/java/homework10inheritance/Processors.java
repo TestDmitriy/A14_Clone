@@ -1,9 +1,9 @@
 package homework10inheritance;
 
 public enum Processors {
-    Intel,
+    INTEL,
     AMD,
-    Apple_M,
-    Qualcomm,
-    Mediatec
+    APPLE_M,
+    QUALCOMM,
+    MEDIATEC
 }
