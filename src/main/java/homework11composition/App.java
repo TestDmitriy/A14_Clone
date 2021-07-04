@@ -17,7 +17,7 @@ public class App {
         Monitor monitor1 = new Monitor("Lenovo","ThinkVision P27h-20",Colors.BLACK,27,ScreenType.IPS);
         Monitor monitor2 = new Monitor("LG","32EP950",Colors.BLACK,32,ScreenType.OLED);
         Monitor[] monitors = {monitor1,monitor2};
-        PowerSupply powerSupply = new PowerSupply("Corsair"," 1000W Gold",1000);
+        PowerSupply powerSupply = new PowerSupply("Corsair","1000W Gold",1000);
         MotherBoard motherBoard = new MotherBoard("Asus","ROG Maximus XIII Hero",cpu,ram);
         SystemBlock systemBlock = new SystemBlock(powerSupply,box,gpu,disk,motherBoard);
 
