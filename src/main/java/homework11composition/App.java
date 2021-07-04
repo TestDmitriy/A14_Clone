@@ -7,6 +7,9 @@ package homework11composition;
 public class App {
     public static void main(String[] args) {
         int[] boxSize = {547,240,475};
+
+        // 1. Device - parent class for all classes
+        System.out.println("1. get CPU model from computer");
         Box box = new Box("Fractal Design","Define 7",Colors.GRAY,boxSize);
         CPU cpu = new CPU("Intel","11700K",3.6);
         RAM ram = new RAM("Corsair","DOMINATOR® PLATINUM RGB",64);
@@ -23,7 +26,10 @@ public class App {
 
         Computer simpleComp = new Computer(keyboard,mouse,monitors,systemBlock);
 
-        String gpuModel = simpleComp.getSystemBlock().getGpu().getModel();
-        System.out.println(gpuModel);
+        String cpuBrand = simpleComp.getSystemBlock().getMb().getCpu().getBrand();
+        String cpuModel = simpleComp.getSystemBlock().getMb().getCpu().getModel();
+        System.out.println("CPU model from computer is "+cpuBrand+" "+cpuModel);
+
+//        Additional tasks
     }
 }
