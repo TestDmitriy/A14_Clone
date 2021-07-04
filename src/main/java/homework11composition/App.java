@@ -28,7 +28,7 @@ public class App {
 
         String cpuBrand = simpleComp.getSystemBlock().getMb().getCpu().getBrand();
         String cpuModel = simpleComp.getSystemBlock().getMb().getCpu().getModel();
-        System.out.println("CPU model from computer is "+cpuBrand+" "+cpuModel);
+        System.out.println("CPU model from the computer is "+cpuBrand+" "+cpuModel);
 
 //        Additional tasks
     }
