@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) {
         int[] boxSize = {547,240,475};
 
-        // 1. Device - parent class for all classes
+        // 1. get CPU model from computer
         System.out.println("1. get CPU model from computer");
         Box box = new Box("Fractal Design","Define 7",Colors.GRAY,boxSize);
         CPU cpu = new CPU("Intel","11700K",3.6);
