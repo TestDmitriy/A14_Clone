@@ -1,23 +1,23 @@
 package homework11composition;
 
 public class Box extends Device {
-    private int[] size;
+    private String[] size;
 
-    public Box(String brand, String model, Colors color, int[] size) {
+    public Box(String brand, String model, Colors color, String[] size) {
         super(brand, model, color);
         this.size = size;
     }
 
-    public Box(String brand, String model, int[] size) {
+    public Box(String brand, String model, String[] size) {
         super(brand, model);
         this.size = size;
     }
 
-    public int[] getSize() {
+    public String[] getSize() {
         return size;
     }
 
-    public void setSize(int[] size) {
+    public void setSize(String[] size) {
         this.size = size;
     }
 }

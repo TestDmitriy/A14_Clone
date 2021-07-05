@@ -6,7 +6,7 @@ package homework11composition;
 
 public class App {
     public static void main(String[] args) {
-        int[] boxSize = {547,240,475};
+        String[] boxSize = {"Length: 547mm","Width: 240mm","Height: 475mm"};
 
         // 1. get CPU model from computer
         System.out.println("1. get CPU model from computer");
