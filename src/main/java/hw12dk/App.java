@@ -7,7 +7,6 @@ public class App {
         // 2. Create 2 objects of each class (3 objects)
         // 3. Assign one object to interface type (assigned)
 
-
         Heatsink hs1 = new Heatsink();
         hs1.CoolingInterfaces();
 
