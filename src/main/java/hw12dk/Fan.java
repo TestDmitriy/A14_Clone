@@ -14,5 +14,18 @@ public class Fan extends Heatsink implements Cooling, Air{
         String air = "Air DO BLOWING. ";
         System.out.println(air+fans);
     }
+
+//getters&setters
+    public String getFans() {
+        return fans;
+    }
+
+    public void setFans(String fans) {
+        this.fans = fans;
+    }
 }
+
+
+
+
 

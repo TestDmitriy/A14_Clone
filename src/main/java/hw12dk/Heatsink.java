@@ -14,4 +14,15 @@ public class Heatsink implements Cooling, Air{
         String air = "Air DOESN'T BLOW. ";
         System.out.println(air + heatsink);
     }
+
+
+//getters&setters----------------------------------------
+
+    public String getHeatsink() {
+        return heatsink;
+    }
+
+    public void setHeatsink(String heatsink) {
+        this.heatsink = heatsink;
+    }
 }
