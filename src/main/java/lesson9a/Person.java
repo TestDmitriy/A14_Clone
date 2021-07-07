@@ -10,6 +10,7 @@ public class Person {
         this.lastName = lastName;
         setYear(year);
     }
+
     public Person(){}
     public Person(String name, String lastName){
         this.name = name;
@@ -30,4 +31,5 @@ public class Person {
         }
         year=y;
     }
+
 }
