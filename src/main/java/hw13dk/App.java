@@ -1,9 +1,6 @@
 package hw13dk;
 
-import hw11dk.CPU;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class App {
     @Override
@@ -15,7 +12,7 @@ public class App {
 
 //    Create 3 ArrayList - String, Integer and some Custom class
 //    Add 4+ elements to each List
-//    excersize methods add/set/remove/get/foreach and etc
+//    exercise methods add/set/remove/get/foreach and etc
 
 //1. Creating array + manually adding Strings values + printOut
 
@@ -24,12 +21,12 @@ public class App {
         ArrCpu.add("i79");
         System.out.println("New " +ArrCpu.size()+ " values has been added to Array of " + ArrCpu);
 
-// clear Array + Add values from Emun to "Clean" Array + printOut
+// clear Array + Add values from Enum to "Clean" Array + printOut
 
         ArrCpu.clear();
 
             for (Cpuseries cc : Cpuseries.values()) {
-                System.out.println("from EMUN: " + cc);
+                System.out.println("from ENUM: " + cc);
                 ArrCpu.add(cc.name());
             }
             System.out.println("Array from ENUMS values: " + ArrCpu);
