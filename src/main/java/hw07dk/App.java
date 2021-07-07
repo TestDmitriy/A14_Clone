@@ -105,5 +105,4 @@ public class App {
         }
         return numbers;
     }
-
 }
