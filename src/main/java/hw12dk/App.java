@@ -25,7 +25,5 @@ public class App {
         Fan fan2 = new Fan();
         fan2.AirBlow();
 
-
-
     }
 }
