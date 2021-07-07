@@ -2,7 +2,6 @@ package hw08dk;
 
 public class App
 {
-
     public static void main(String[] args)
     {
 
