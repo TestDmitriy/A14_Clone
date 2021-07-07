@@ -37,7 +37,7 @@ public class Smartphone implements Screen {
 
     @Override
     public void write() {
-        System.out.println(name+" smartphone has length "+length+" and wight "+wight+" inches");
+        System.out.printf("%s smartphone has %s length and %s wight inches\n",name,length,wight);
     }
 
     @Override

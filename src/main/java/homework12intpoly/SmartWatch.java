@@ -27,7 +27,7 @@ public class SmartWatch implements Screen{
 
     @Override
     public void write() {
-        System.out.println(name+" smartwhatch has "+radius+" inches radius");
+        System.out.printf("%s smartwhatch has %s inches radius\n",name,radius);
     }
 
     @Override
