@@ -37,7 +37,7 @@ public class Smartphone implements Screen {
 
     @Override
     public void write() {
-        System.out.println(name+" smartphone has "+getDiagonal()+" inches diagonal");
+        System.out.println(name+" smartphone has length "+length+" and wight "+wight+" inches");
     }
 
     @Override
