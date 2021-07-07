@@ -20,6 +20,6 @@ public class App {
         }
     }
     public static void printInfo(Screen xx){
-        System.out.println("Diagonal = "+xx.getDiagonal());
+        System.out.println("Screen diagonal = "+xx.getDiagonal());
     }
 }
