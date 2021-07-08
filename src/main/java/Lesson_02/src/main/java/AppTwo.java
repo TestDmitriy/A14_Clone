@@ -1,4 +1,4 @@
-public class App {
+public class AppTwo {
     public static void main(String[] arg) {
 // my code during class
         int age = 20;
