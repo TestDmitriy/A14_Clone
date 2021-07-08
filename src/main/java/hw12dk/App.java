@@ -7,23 +7,38 @@ public class App {
         // 2. Create 2 objects of each class (3 objects)
         // 3. Assign one object to interface type (assigned)
 
-        Heatsink hs1 = new Heatsink();
-        hs1.CoolingInterfaces();
 
-        Fan fan1 = new Fan();
-        fan1.CoolingInterfaces();
+        // 1st Class: Heatsink
+        String heatsinkstr = "Heat Sink";
 
-        Liquid liquid1 = new Liquid();
-        liquid1.CoolingInterfaces();
+        Heatsinks newhs1 = new Heatsinks(heatsinkstr);
+        newhs1.CoolingInterfaces();
+
+        // 2nd Class: Fans
+        String fanstr = "Fans";
+        Fans newfan1 = new Fans(fanstr);
+        newfan1.CoolingInterfaces();
+
+        // 3rd Class: Liquid
+        String liqstr = "Water cooled";
+
+        Liquid newliq1 = new Liquid("140 mm",liqstr);
+        newliq1.CoolingInterfaces();
 
 
-//added additional Interface (Air) for practice
-// used Inheritance Heatsink -> fans -> Liquid
-        Heatsink hs2 = new Heatsink();
-        hs2.AirBlow();
 
-        Fan fan2 = new Fan();
-        fan2.AirBlow();
+//Interface - Air for practice
+//used Inheritance Classes: Fans -> Liquid
+
+        newhs1.AirBlow();
+        newfan1.AirBlow();
+        newliq1.AirBlow();
+
+
+// tests
+        Fans newLiqTest1 = new Liquid("2x120mm","Radiator");
+        Cooling coolTest = new Fans("newFan");
+
 
     }
 }
