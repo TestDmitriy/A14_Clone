@@ -9,6 +9,7 @@ public class App {
 //               + add 4 elements to each hashmap
 //               + try methods  put/replace/remove/get/foreach
 
+
         System.out.println("// 1 -------------------------------HashMap---------------------------------");
 
         Map<String,String> newHashMapStr2 = new HashMap<>();            // String, String

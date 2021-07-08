@@ -9,7 +9,6 @@ public class Classd1 {
         this.rgb = rgb;
     }
 
-
     public String getName() {
         return name;
     }

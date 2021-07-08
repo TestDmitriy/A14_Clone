@@ -4,6 +4,7 @@ public class Objectsd {
     public String objName;
     private Object obj;
 
+
     @Override
     public String toString() {
         return " Objects: !NAME = " + objName + " !OBJECT: = " + obj;
