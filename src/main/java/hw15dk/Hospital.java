@@ -31,4 +31,5 @@ public class Hospital {
     public String toString() {
         return "HOSPITAL: " + hospitalName + " ADDRESS: " + address;
     }
+
 }

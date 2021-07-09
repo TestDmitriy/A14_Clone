@@ -40,4 +40,5 @@ public class Doctor {
     public void setPosition(Position position) {
         this.position = position;
     }
+
 }
