@@ -17,7 +17,7 @@ public class Person {
     }
 
     public static void hello(){
-        System.out.println("hello - static");
+        System.out.println("hello - object - static1");
         System.out.println(xx);
     }
     public void hey(){

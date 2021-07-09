@@ -2,8 +2,8 @@ package lesson15;
 
 public class App {
     public static void main(String[] args) {
-//        PersonNonStatic person1 = new PersonNonStatic();
-//        person1.hello();
+        PersonNonStatic person1 = new PersonNonStatic();
+        person1.hello();
 //
         PersonStatic.hello();
 //
