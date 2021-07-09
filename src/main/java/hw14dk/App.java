@@ -80,7 +80,6 @@ public class App {
 
 
 
-
         System.out.println("// 2 -------------------------------HashSet---------------------------------");
 //      2:Create 2 HashSet- <String>,  and custom classes <Class1>
 //                add 4 elements to each hashset
@@ -114,4 +113,5 @@ public class App {
         }
 
     }
+
 }
